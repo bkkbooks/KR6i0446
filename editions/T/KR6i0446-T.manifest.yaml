@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0446/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0446/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說五無反復經
+  identifiers:
+    krp: KR6i0446
+    cbeta: T17n0751a
+    cbeta_old_id: T17n0751a
+    authorityid: CA0003490a
+    json_key: T0751a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0751a.xml
+    old_id: T17n0751a
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0446_000-T.yaml, hash: 'sha256:757b4d97879157047c038993765c2406f031db8d387543e423fb95605869521b'}
+  - {seq: 1, filename: KR6i0446_001-T.yaml, hash: 'sha256:0fe7abcb25aef168d3133e1d5e8814ea54cbafa1b6905e27b9887afd7168e9fd'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0446_000-T.markers.yaml, hash: 'sha256:3a51cf0ba553d7cb36fbaefb00e97ddd89c50c536608022e00b7a1b0496581be'}
+  - {seq: 1, role: markers, filename: assets/KR6i0446_001-T.markers.yaml, hash: 'sha256:99543eb57f69ab8387df1638e0ce43917898d97d6d9891c5295860cdb796e098'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0446_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 938
+  label: 佛說五無反復經
+  type: juan
+  level: 1
+hash: sha256:2046d1aca07d9858503a7f2ff186dcfba7a09c683f75ca08f3484d883bdff5e9
