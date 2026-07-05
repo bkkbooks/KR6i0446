@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0446_000.yaml, hash: 'sha256:757b4d97879157047c038993765c2406f031db8d387543e423fb95605869521b'}
-  - {seq: 1, filename: KR6i0446_001.yaml, hash: 'sha256:e6f5eb7eff1f012339624881bcd4cbc90127661fe67ab48c250871b3b91c3f8d'}
+  - {seq: 1, filename: KR6i0446_001.yaml, hash: 'sha256:0fe7abcb25aef168d3133e1d5e8814ea54cbafa1b6905e27b9887afd7168e9fd'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0446_001.markers.yaml, hash: 'sha256:5c5e90ba0ef2e4a7db1a453c8b1c7f70853cfc671e744049660aa0183363d200'}
+  - {seq: 0, role: markers, filename: assets/KR6i0446_000.markers.yaml, hash: 'sha256:80a101e3c7382fe51c3032d3698dc7c833efe688888165b0d56a531556ac2407'}
+  - {seq: 1, role: markers, filename: assets/KR6i0446_001.markers.yaml, hash: 'sha256:2cb62729e09a90c100e6180d635f2bc1a0e61d5a222fd3adf5c02e31bd6848dd'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 佛說五無反復經
   type: juan
   level: 1
-hash: sha256:dbc73fd9691e198af79bd9b0b3076b9ebcb91e21a2379bbc55525b4316a4c8c3
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:96ea88b509ae637cd8c162d296a3abc5083c1f0bba2915800dfb348bcc40be6f
