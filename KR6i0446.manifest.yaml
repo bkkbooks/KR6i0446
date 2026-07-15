@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0446/v1
 canonical_location: https://kanripo.org/bkk/KR6i0446/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說五無反復經
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0446_000.yaml, hash: 'sha256:757b4d97879157047c038993765c2406f031db8d387543e423fb95605869521b'}
-  - {seq: 1, filename: KR6i0446_001.yaml, hash: 'sha256:0fe7abcb25aef168d3133e1d5e8814ea54cbafa1b6905e27b9887afd7168e9fd'}
+  - {seq: 1, filename: KR6i0446_001.yaml, hash: 'sha256:48c4f4162cc7f9eaf7be567d717fc04d489a55f4c5f2f1206bb54b466aeb922a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0446_000.markers.yaml, hash: 'sha256:80a101e3c7382fe51c3032d3698dc7c833efe688888165b0d56a531556ac2407'}
-  - {seq: 1, role: markers, filename: assets/KR6i0446_001.markers.yaml, hash: 'sha256:2cb62729e09a90c100e6180d635f2bc1a0e61d5a222fd3adf5c02e31bd6848dd'}
+  - {seq: 1, role: markers, filename: assets/KR6i0446_001.markers.yaml, hash: 'sha256:f71d57f0bff7fea62984939b7bb8fe6d828803d32b4bea11776eeb1aea60f0dd'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 佛說五無反復經
   type: juan
   level: 1
-hash: sha256:96ea88b509ae637cd8c162d296a3abc5083c1f0bba2915800dfb348bcc40be6f
+hash: sha256:38f69a4e6ab2811856dc67baeb017d3802ce3c3290f9815066131aafc3c11fa6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
